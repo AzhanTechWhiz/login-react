@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(back.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .form-box {
+    width: 90%;
+    max-width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid rgb(56 189 217);
+    padding: 50px 60px 70px;
+    text-align: center;
+  }
+  
+  .form-box h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
+    position: relative;
+  }
+  
+  .field {
+    background: rgba(245, 235, 235, 0);
+    margin: 15px 0;
+    border-radius: 3px;
+    border: 2px solid rgb(56 189 217);
+    display: flex;
+    align-items: center;
+  }
+  
+  input {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 15px 150px;
+  }
+  .field input::placeholder{
+    color: white;
+  }
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    color: #ffffff;
+    font-size: 14px;
+
+  }
+  .error {
+    color: rgb(146, 0, 0);
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 5px;
+  }
+  button {
+    height: 40px;
+    width: 160px;
+    border: none;
+    background-color: transparent;
+    border: 2px solid rgb(56 189 217);
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+  }
+  
+  button:hover {
+    color: white;
+    background-color: rgb(56 189 217);
+    transition: 0.5s;
+  }

@@ -1,38 +1,64 @@
-.App {
+/* * {
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh; */
+  /* background-image: url(login.jpg); */
+  /* background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.form-box {
+  width: 90%;
+  max-width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 50px 60px 70px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form-box h1 {
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: black;
+  position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.field {
+  background: rgb(245, 235, 235);
+  margin: 15px 0;
+  border-radius: 3px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+input {
+  width: 100%;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  padding: 22px 18px;
+}
+
+button {
+  height: 50px;
+  width: 180px;
+  border: none;
+  background-color: rgb(245, 235, 235);
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  background-color: grey;
+} */
